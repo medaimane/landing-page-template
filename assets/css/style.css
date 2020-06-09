@@ -337,6 +337,12 @@ h1, h2, h3, h4, h5, h6 {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 
+.hero-img-border {
+  border-bottom-right-radius: 200px;
+  border-bottom-left-radius: 170px;
+  border-top-left-radius: 170px;
+}
+
 @media (max-width: 991px) {
   #hero {
     height: 100vh;
